@@ -21,7 +21,7 @@ public class Students {
 	@Column
 	private int year;
 	@Column
-	private int mobileno;
+	private long mobileno;
 	public int getRegno() {
 		return regno;
 	}
@@ -46,10 +46,10 @@ public class Students {
 	public void setYear(int year) {
 		this.year = year;
 	}
-	public int getMobileno() {
+	public long getMobileno() {
 		return mobileno;
 	}
-	public void setMobileno(int mobileno) {
+	public void setMobileno(long mobileno) {
 		this.mobileno = mobileno;
 	}
 	

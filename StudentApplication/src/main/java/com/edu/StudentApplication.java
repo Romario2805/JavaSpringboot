@@ -10,7 +10,6 @@ public class StudentApplication {
 		// TODO Auto-generated method stub
 		SpringApplication.run(StudentApplication.class, args);
 		
-	System.out.println("Hi");
 
 	}
 	
